@@ -14,10 +14,10 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
             bool expected = true;
 
             // act
-            bool output = Problem1.IsUnique(str);
+            bool actual = Problem1.IsUnique(str);
 
             // assert
-            Assert.AreEqual(expected, output);
+            Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
@@ -28,10 +28,10 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
             bool expected = false;
 
             // act
-            bool output = Problem1.IsUnique(str);
+            bool actual = Problem1.IsUnique(str);
 
             // assert
-            Assert.AreEqual(expected, output);
+            Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
@@ -42,10 +42,10 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
             bool expected = true;
 
             // act
-            bool output = Problem1.IsUnique(str);
+            bool actual = Problem1.IsUnique(str);
 
             // assert
-            Assert.AreEqual(expected, output);
+            Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
@@ -56,10 +56,10 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
             bool expected = true;
 
             // act
-            bool output = Problem1.IsUniqueInPlace(str);
+            bool actual = Problem1.IsUniqueInPlace(str);
 
             // assert
-            Assert.AreEqual(expected, output);
+            Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
@@ -70,10 +70,10 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
             bool expected = false;
 
             // act
-            bool output = Problem1.IsUniqueInPlace(str);
+            bool actual = Problem1.IsUniqueInPlace(str);
 
             // assert
-            Assert.AreEqual(expected, output);
+            Assert.AreEqual(expected, actual);
         }
 
         [TestMethod]
@@ -84,10 +84,10 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
             bool expected = true;
 
             // act
-            bool output = Problem1.IsUniqueInPlace(str);
+            bool actual = Problem1.IsUniqueInPlace(str);
 
             // assert
-            Assert.AreEqual(expected, output);
+            Assert.AreEqual(expected, actual);
         }
     }
 }
