@@ -27,7 +27,6 @@ namespace My_CTCI_Solutions.Ch1ArraysStrings
             {
                 for (int j = i + 1; j < str.Length - i; j++)
                 {
-                    Console.WriteLine(str.ElementAt(i) + " " + str.ElementAt(j));
                     if(str.ElementAt(i).Equals(str.ElementAt(j)))
                     {
                         return false;

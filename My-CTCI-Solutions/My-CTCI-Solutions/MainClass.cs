@@ -6,7 +6,6 @@ namespace My_CTCI_Solutions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
             String str = "abcdefghijklmnopqrstuvwxyza";
             Problem1.IsUniqueInPlace(str);
         }
