@@ -1,5 +1,4 @@
-﻿using System;
-namespace My_CTCI_Solutions.Ch1ArraysStrings
+﻿namespace My_CTCI_Solutions.Ch1ArraysStrings
 {
     public class Problem2
     {
