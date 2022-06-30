@@ -24,7 +24,7 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
         public void IsUniqueTest2NotUnique()
         {
             // arrange
-            String str = "aaabcdefghijklmnopqrstuvwxyz";
+            String str = "abcdefghijklmnopqrstuvwxyza";
             bool expected = false;
 
             // act
@@ -35,7 +35,21 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
         }
 
         [TestMethod]
-        public void IsUniqueInplaceTest1Unique()
+        public void IsUniqueTest3EmptyString()
+        {
+            // arrange
+            String str = "";
+            bool expected = true;
+
+            // act
+            bool output = Problem1.IsUnique(str);
+
+            // assert
+            Assert.AreEqual(expected, output);
+        }
+
+        [TestMethod]
+        public void IsUniqueInPlaceTest1Unique()
         {
             // arrange
             String str = "abcdefghijklmnopqrstuvwxyz";
@@ -49,11 +63,25 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
         }
 
         [TestMethod]
-        public void IsUniqueInplaceTest2NotUnique()
+        public void IsUniqueInPlaceTest2NotUnique()
         {
             // arrange
             String str = "abcdefghijklmnopqrstuvwxyza";
             bool expected = false;
+
+            // act
+            bool output = Problem1.IsUniqueInPlace(str);
+
+            // assert
+            Assert.AreEqual(expected, output);
+        }
+
+        [TestMethod]
+        public void IsUniqueInPlaceTest3EmptyString()
+        {
+            // arrange
+            String str = "";
+            bool expected = true;
 
             // act
             bool output = Problem1.IsUniqueInPlace(str);
