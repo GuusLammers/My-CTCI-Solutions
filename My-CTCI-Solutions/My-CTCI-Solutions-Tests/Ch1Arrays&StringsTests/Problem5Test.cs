@@ -7,7 +7,7 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
     public class Problem5Test
     {
         [TestMethod]
-        public void IsPalindromeTest1TrueRemove()
+        public void OneEditTest1TrueRemove()
         {
             // arrange
             String str1 = "pale";
@@ -22,7 +22,7 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
         }
 
         [TestMethod]
-        public void IsPalindromeTest2TrueInsert()
+        public void OneEditTest2TrueInsert()
         {
             // arrange
             String str1 = "ple";
@@ -37,7 +37,7 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
         }
 
         [TestMethod]
-        public void IsPalindromeTest3TrueReplace()
+        public void OneEditTest3TrueReplace()
         {
             // arrange
             String str1 = "pale";
@@ -52,7 +52,7 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
         }
 
         [TestMethod]
-        public void IsPalindromeTest4FalseDifferingLength()
+        public void OneEditTest4FalseDifferingLength()
         {
             // arrange
             String str1 = "pales";
@@ -67,7 +67,7 @@ namespace My_CTCI_Solutions_Tests.Ch1ArraysStringsTests
         }
 
         [TestMethod]
-        public void IsPalindromeTest5FalseIdentical()
+        public void OneEditTest5FalseIdentical()
         {
             // arrange
             String str1 = "pale";
