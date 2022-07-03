@@ -11,6 +11,7 @@
   <ItemGroup>
     <None Remove="Ch.1: Arrays &amp; Strings\" />
     <None Remove="Ch2LinkedLists\" />
+    <None Remove="..\.editorconfig" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ch1Arrays&amp;Strings\" />

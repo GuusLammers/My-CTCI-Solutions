@@ -1,4 +1,5 @@
 ﻿using My_CTCI_Solutions.Ch1ArraysStrings;
+using My_CTCI_Solutions.Ch2LinkedLists;
 
 namespace My_CTCI_Solutions
 {
@@ -6,23 +7,25 @@ namespace My_CTCI_Solutions
     {
         static void Main(string[] args)
         {
-            int[,] image = new int[4, 5] {
-                {1, 2, 3, 4, 5},
-                {5, 0, 3, 2, 1},
-                {4, 5, 1, 2, 3},
-                {3, 4, 5, 1, 0}};
+            Node head = new Node(4);
+            head.AppendToTail(6);
+            head.AppendToTail(3);
+            head.AppendToTail(5);
+            head.AppendToTail(6);
+            head.AppendToTail(1);
+            head.AppendToTail(3);
+            head.AppendToTail(7);
+            head.AppendToTail(4);
+            head.AppendToTail(5);
+            head.AppendToTail(9);
 
+            Ch2LinkedLists.Problem1.RemoveDuplicates(ref head);
 
-            int[,] alteredMatrix = Problem8.ZeroMatrix(image);
-
-            for(int i = 0; i < alteredMatrix.GetLength(0); i++)
+            Node pointer = head;
+            while(pointer.GetNextNode() != null)
             {
-                for (int j = 0; j < alteredMatrix.GetLength(1); j++)
-                {
-                    Console.Write(alteredMatrix[i, j]);
-                }
-
-                Console.Write("\n");
+                Console.WriteLine(pointer.GetValue());
+                pointer = pointer.GetNextNode();
             }
         }
     }
