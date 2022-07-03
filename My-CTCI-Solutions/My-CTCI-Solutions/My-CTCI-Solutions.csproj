@@ -10,8 +10,10 @@
 
   <ItemGroup>
     <None Remove="Ch.1: Arrays &amp; Strings\" />
+    <None Remove="Ch2LinkedLists\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ch1Arrays&amp;Strings\" />
+    <Folder Include="Ch2LinkedLists\" />
   </ItemGroup>
 </Project>

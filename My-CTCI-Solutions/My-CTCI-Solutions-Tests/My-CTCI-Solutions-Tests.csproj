@@ -21,8 +21,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="Ch1Arrays&amp;StringsTests\" />
+    <None Remove="Ch2LinkedListsTests\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Ch1Arrays&amp;StringsTests\" />
+    <Folder Include="Ch2LinkedListsTests\" />
   </ItemGroup>
 </Project>
